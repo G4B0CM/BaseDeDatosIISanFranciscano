@@ -49,6 +49,7 @@ body {
   .main-content .bienvenida-usuario{
     display: flex;
     justify-content: center;
+    padding-top: 20px;
   }
     .main-content .bienvenida-usuario h1{
         margin-top: 20px;
@@ -60,6 +61,17 @@ body {
         height: 2px;
         background-color: #333;
         margin: 20px 0;
+      }
+
+      
+      .info-general {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+      
+      .col-50 {
+        width: calc(50% - 0.5rem);
       }
       
   
